@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://your-docusaurus-site.example.com/doc/blog"/>
     <subtitle>Connect TEF Blog</subtitle>
-    <icon>https://your-docusaurus-site.example.com/doc/img/favicon.ico</icon>
+    <icon>https://your-docusaurus-site.example.com/doc/img/logo.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
         <id>https://your-docusaurus-site.example.com/doc/blog/welcome</id>
