@@ -4,38 +4,37 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Integração Simplificada',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Com o ConnectTEF, você conecta seu sistema de forma rápida a máquinas SmartPOS.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Flexível para seu Sistema',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Suporte a múltiplas formas de integração: API, troca de arquivos, Intents, DLL ou SDK.
+        Escolha o modelo ideal para o seu ambiente.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Baseado em Tecnologia Confiável',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        O ConnectTEF foi construído com foco em estabilidade, escalabilidade e segurança,
+        pronto para ambientes de missão crítica.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
