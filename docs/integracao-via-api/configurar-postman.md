@@ -19,7 +19,7 @@ Caso ainda não tenha o Postman instalado, baixe aqui: [https://www.postman.com/
 
 ---
 
-### Etapa 1: Importar o Certificado no Postman
+### Etapa 1: Importar o Certificado
 
 1. Abra o **Postman**
 2. Vá em **Settings (ícone de engrenagem no canto superior direito)**
@@ -34,7 +34,7 @@ Caso ainda não tenha o Postman instalado, baixe aqui: [https://www.postman.com/
 
 ---
 
-### Etapa 2: Importar a Collection e o Ambiente
+### Etapa 2: Importar a Collection
 - **Importar a Collection**
 1. No Postman, clique em **File > Import**
 2. Vá para a aba **Upload Files**
