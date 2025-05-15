@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Windows
 
 O **Connect TEF** é uma ponte entre seu sistema de vendas (PDV) e a maquininha de cartão Smart POS. Este guia mostra como instalar e configurar o Connect TEF no Windows para começar a realizar transações com segurança e agilidade.

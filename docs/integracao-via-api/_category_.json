@@ -2,7 +2,6 @@
   "label": "Integração via API",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "A API foi projetada para garantir uma comunicação segura e confiável entre o servidor e os sistemas cliente, utilizando mTLS (Mutual TLS), um protocolo de segurança que autentica tanto o servidor quanto o cliente durante a comunicação. Isso é fundamental para garantir a integridade e privacidade dos dados durante as requisições."
+    "type": "generated-index"
   }
 }
