@@ -23,7 +23,7 @@ function HomepageHeader() {
         </Link>
 
         <div className={styles.integrationLinks}>
-          <Link className="button button--primary button--md" to="/docs/api">
+          {/* <Link className="button button--primary button--md" to="/docs/api">
             Integração via API
           </Link>
           <Link className="button button--primary button--md" to="/docs/arquivo">
@@ -37,7 +37,7 @@ function HomepageHeader() {
           </Link>
           <Link className="button button--primary button--md" to="/docs/android-intent">
             Android (Intent)
-          </Link>
+          </Link> */}
         </div>
       </div>
     </header>
