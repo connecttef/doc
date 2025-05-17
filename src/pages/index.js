@@ -3,24 +3,40 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import HomepageConnectTEF from '@site/src/components/HomepageConnectTEF';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
+      <div className="container text--center">
+        <Heading as="h1" className={styles.heroTitle}>
+          {/* Aceite pagamentos com diversas maquininhas de cartão, tudo numa única integração */}
+          Site em construção, volte em outro momento
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Comece a Integração 🚀
+
+        <Link className="button button--secondary button--lg" to="/docs/intro">
+          Comece a Integração Agora 🚀
+        </Link>
+
+        <div className={styles.integrationLinks}>
+          <Link className="button button--primary button--md" to="/docs/api">
+            Integração via API
+          </Link>
+          <Link className="button button--primary button--md" to="/docs/arquivo">
+            Troca de Arquivos
+          </Link>
+          <Link className="button button--primary button--md" to="/docs/dll">
+            Integração via DLL
+          </Link>
+          <Link className="button button--primary button--md" to="/docs/sdk">
+            SDK
+          </Link>
+          <Link className="button button--primary button--md" to="/docs/android-intent">
+            Android (Intent)
           </Link>
         </div>
       </div>
@@ -29,7 +45,7 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
       title={`${siteConfig.title}`}
@@ -37,6 +53,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageConnectTEF />
       </main>
     </Layout>
   );

@@ -10,8 +10,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Connect TEF',
-  tagline: 'A forma mais simples de integrar com terminais smartpos.',
+  title: 'Conecte seu sistema a múltiplas adquirentes com facilidade',
+  // tagline: 'A solução completa para integrar pagamentos com crédito, débito e serviços adicionais — com apenas uma integração.',
   favicon: 'img/logo.png',
 
   // Set the production url of your site here

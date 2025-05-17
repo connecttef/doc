@@ -2,37 +2,37 @@ import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
+
 const FeatureList = [
   {
-    title: 'Integração Simplificada',
+    title: 'Integração Simples e Rápida',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Com o ConnectTEF, você conecta seu sistema de forma rápida a máquinas SmartPOS.
+        Conecte seu sistema a maquininhas SmartPOS em poucos passos, com documentação clara e suporte ágil.
       </>
     ),
   },
   {
-    title: 'Flexível para seu Sistema',
+    title: 'Suporte a Múltiplas Adquirentes',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Suporte a múltiplas formas de integração: API, troca de arquivos, Intents, DLL ou SDK.
-        Escolha o modelo ideal para o seu ambiente.
+        Trabalhe com operadoras como Cielo, Rede, Stone e muitas outras sem precisar de múltiplas integrações.
       </>
     ),
   },
   {
-    title: 'Baseado em Tecnologia Confiável',
+    title: 'Transações Seguras e Confiáveis',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        O ConnectTEF foi construído com foco em estabilidade, escalabilidade e segurança,
-        pronto para ambientes de missão crítica.
+        Plataforma desenvolvida com foco em estabilidade e segurança para garantir a confiabilidade dos pagamentos.
       </>
     ),
-  },
+  }
 ];
+
 
 function Feature({ Svg, title, description }) {
   return (

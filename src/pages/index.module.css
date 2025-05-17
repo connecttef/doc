@@ -21,3 +21,30 @@
   align-items: center;
   justify-content: center;
 }
+
+.heroTitle {
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  max-width: 1000px;
+  /* Defina o valor conforme necessário */
+  margin-left: auto;
+  margin-right: auto;
+  /* Centraliza horizontalmente se desejar */
+}
+
+.heroSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.integrationLinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem; /* espaço entre o botão principal e os links */
+}
