@@ -245,10 +245,11 @@ export default function HomepageConnectTEF() {
   return (
     <>
       <LegacyTefCompatibility />
+      <HomologatedTerminalsCarousel />
       <section className={styles.testimonials}>
         <div className="container">
           <Heading as="h2" className="text--center">
-            Por que escolher o Connect TEF?
+            Mais que um smartpos integrado
           </Heading>
         </div>
       </section>
@@ -271,11 +272,16 @@ export default function HomepageConnectTEF() {
         </div>
       </section> */}
 
-      <HomologatedTerminalsCarousel />
       <AdiquirentesCarousel />
 
-      <div className="text--center margin-top--lg">
-        <p><strong>🚀 Presença nas maiores adquirentes, alcance total garantido.</strong></p>
+      <div className="text--center margin-top--lg margin-bottom--lg">
+        <a
+          className="button button--primary button--lg"
+          href="/docs/intro"
+          style={{ fontSize: '1.1rem' }}
+        >
+          👉 Quero integrar agora
+        </a>
       </div>
     </>
   );

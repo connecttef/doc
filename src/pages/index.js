@@ -47,14 +47,27 @@ function HomepageHeader() {
 
     try {
       setError('');
+      setSubmitted(false);
 
-      const response = await fetch('/api/contato', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbyFD3_mvfksxG6-VTAyEzvNcxs1cn-qGy7x2cgGuOm774mUqu_7qq31FpViWRxF7AYw/exec', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+        },
         body: JSON.stringify(formData),
       });
 
-      if (!response.ok) throw new Error('Erro na requisição');
+      const result = await response.json();
+      console.log('Resposta do Apps Script:', result);
+
+   
+      if (!response.ok || result.result !== 'success') {
+        throw new Error('Erro na resposta do servidor');
+      }
+
+      if (!response.ok || result.result !== 'success') {
+        throw new Error('Erro na resposta do servidor');
+      }
 
       setSubmitted(true);
       setFormData({
@@ -66,9 +79,10 @@ function HomepageHeader() {
         interest: 'Quero utilizar no meu negócio',
       });
     } catch (err) {
+      console.error(err);
       setError('Erro ao enviar, tente novamente.');
     }
-  }
+  };
 
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
@@ -89,6 +103,7 @@ function HomepageHeader() {
             <select name="interest" value={formData.interest} onChange={handleChange} required>
               <option value="Quero utilizar no meu negócio">Quero utilizar no meu negócio</option>
               <option value="Quero revender (White Label)">Quero revender (White Label)</option>
+              <option value="Quero integrar">Quero integrar</option>
               <option value="Outro">Outro</option>
             </select>
             <button className="button button--secondary button--sm" type="submit">Enviar</button>
@@ -109,7 +124,7 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-    
+
         <HomepageConnectTEF />
       </main>
     </Layout>
