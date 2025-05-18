@@ -49,25 +49,14 @@ function HomepageHeader() {
       setError('');
       setSubmitted(false);
 
-      const response = await fetch('https://script.google.com/macros/s/AKfycbyFD3_mvfksxG6-VTAyEzvNcxs1cn-qGy7x2cgGuOm774mUqu_7qq31FpViWRxF7AYw/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbyFD3_mvfksxG6-VTAyEzvNcxs1cn-qGy7x2cgGuOm774mUqu_7qq31FpViWRxF7AYw/exec', {
         method: 'POST',
+        mode: 'no-cors',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(formData),
       });
-
-      const result = await response.json();
-      console.log('Resposta do Apps Script:', result);
-
-   
-      if (!response.ok || result.result !== 'success') {
-        throw new Error('Erro na resposta do servidor');
-      }
-
-      if (!response.ok || result.result !== 'success') {
-        throw new Error('Erro na resposta do servidor');
-      }
 
       setSubmitted(true);
       setFormData({
