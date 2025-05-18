@@ -7,7 +7,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const FeatureList = [
-  // 🧾 Operação no Caixa ou Balcão
   {
     imgSrc: 'img/pagamento.png',
     title: 'Perfeito para uso no Caixa/Balcão',
@@ -25,79 +24,35 @@ const FeatureList = [
   },
   {
     imgSrc: 'img/pagamento.png',
-    title: 'Leitor de código',
-    description: 'Use a câmera da maquininha para capturar códigos de barras durante as vendas e cadastro de produtos.',
+    title: 'Anuncie na Tela da Maquininha',
+    description: 'Exiba imagens ou vídeos promocionais enquanto o cliente faz o pagamento — transforme cada venda em uma oportunidade de marketing.',
   },
   {
     imgSrc: 'img/pagamento.png',
-    title: 'Perfeito para Coleta de Inventário',
-    description: 'Use a maquininha como um coletor inteligente: escaneie produtos, registre quantidades e exporte os dados organizados em tabela para controle de estoque ou sistemas de gestão.',
+    title: 'Coleta de Inventário',
+    description: 'Use a maquininha como um coletor: escaneie produtos, registre quantidades e exporte os dados organizados em tabela para controle de estoque ou sistemas de gestão.',
   },
   {
     imgSrc: 'img/pagamento.png',
-    title: 'Comprovante via WhatsApp',
-    description: 'Envie o comprovante direto para o WhatsApp do cliente — prático, rápido e ecológico.',
+    title: 'Impressão Direta na Maquininha',
+    description: 'Imprima comprovantes ou conteúdos personalizados diretamente na maquininha, enviando texto formatado, imagens em base64 ou até uma URL com o conteúdo pronto.',
   },
   {
     imgSrc: 'img/pagamento.png',
-    title: 'Impressão de Recibos',
-    description: 'Imprima comprovantes físicos diretamente na maquininha, se o cliente preferir.',
-  },
-
-  // 🔌 Conecte com o que você já usa
-  {
-    imgSrc: 'img/docusaurus.png',
-    title: 'Integração com seu Sistema',
-    description: 'Se conecta facilmente ao seu sistema atual via API, arquivos, SDK, ou até mesmo usando Intent no Android.',
-  },
-  {
-    imgSrc: 'img/docusaurus.png',
-    title: 'Compatível com TEF Tradicional',
-    description: 'Já usa TEF por troca de arquivos? Não precisa mudar nada. Basta instalar nosso módulo e começar a usar o SmartPOS.',
-  },
-  {
-    imgSrc: 'img/docusaurus.png',
-    title: 'Múltiplas Adquirentes em Uma Integração',
-    description: 'Cielo, Rede, Stone, SafraPay, Getnet e muito mais — tudo com uma única integração.',
-  },
-
-  // 🖨️ Recursos Adicionais do SmartPOS
-  {
-    imgSrc: 'img/docusaurus.png',
-    title: 'Leitura de Código de Barras e QR Code',
-    description: 'Use a câmera da maquininha para ler códigos, agilizando pedidos, pagamentos ou validações.',
-  },
-  {
-    imgSrc: 'img/docusaurus.png',
-    title: 'Impressão de Cupons Personalizados',
-    description: 'Imprima imagens, textos ou cupons de forma totalmente personalizada direto na impressora do SmartPOS.',
-  },
-
-  // 📲 Coleta de Dados do Cliente
-  {
-    imgSrc: 'img/docusaurus.png',
-    title: 'Peça CPF ou Telefone na Maquininha',
-    description: 'Permite solicitar dados como CPF para nota fiscal ou telefone para contato, tudo direto na tela do SmartPOS.',
-  },
-  {
-    imgSrc: 'img/docusaurus.png',
-    title: 'Campos Personalizados',
-    description: 'Colete qualquer informação do cliente (ex: número da mesa, avaliação do atendimento, observações etc).',
-  },
-  {
-    imgSrc: 'img/docusaurus.png',
     title: 'Avaliação de Atendimento',
     description: 'O cliente pode avaliar o atendimento com um clique após a venda, direto na maquininha.',
   },
-
-  // 📺 Marketing e Experiência
   {
-    imgSrc: 'img/docusaurus.png',
-    title: 'Anuncie na Tela da Maquininha',
-    description: 'Exiba imagens ou vídeos promocionais enquanto o cliente faz o pagamento — transforme cada venda em uma oportunidade de marketing.',
+    imgSrc: 'img/pagamento.png',
+    title: 'Coleta de Dados do Cliente',
+    description: 'Solicite informações como CPF, telefone ou e-mail diretamente na maquininha, de forma integrada e sem complicações após o pagamento.',
+  },
+  {
+    imgSrc: 'img/pagamento.png',
+    title: 'Leitor de código',
+    description: 'Use a câmera da maquininha para capturar códigos de barras durante as vendas e cadastro de produtos.',
   }
 ];
-
 
 const Testimonials = [
   {
@@ -122,13 +77,110 @@ const Testimonials = [
   },
 ];
 
+const terminals = [
+  { name: 'A930', logo: 'img/terminals/A930.webp' },
+  { name: 'A920', logo: 'img/terminals/A920.png' },
+  { name: 'A910', logo: 'img/terminals/A910.png' },
+  { name: 'Clover Flex', logo: 'img/terminals/CloverFlex.png' },
+  { name: 'DX8000', logo: 'img/terminals/DX8000.webp' },
+  { name: 'GPOS 700', logo: 'img/terminals/GPOS700.png' },
+  { name: 'N910', logo: 'img/terminals/N910.png' },
+  { name: 'Positivo L300', logo: 'img/terminals/PositivoL300.png' },
+  { name: 'Positivo L400', logo: 'img/terminals/PositivoL400.webp' },
+  { name: 'Sunmi P2', logo: 'img/terminals/Sunmip2.png' },
+  { name: 'Sunmi P3', logo: 'img/terminals/Sunmip3.webp' },
+  // ...adicione quantos quiser
+];
+const adiquirentes = [
+  { name: 'adyen', logo: 'img/adiquirentes/adyen.png' },
+  { name: 'azulzinha', logo: 'img/adiquirentes/azulzinha.png' },
+  { name: 'getnet', logo: 'img/adiquirentes/getnet.png' },
+  { name: 'Mercado Pago', logo: 'img/adiquirentes/Mercado Pago.png' },
+  { name: 'PicPay', logo: 'img/adiquirentes/PicPay.png' },
+  { name: 'Rede', logo: 'img/adiquirentes/Rede.png' },
+  { name: 'SumUp', logo: 'img/adiquirentes/SumUp.png' },
+  { name: 'Vero', logo: 'img/adiquirentes/Vero.png' }
+  // ...adicione quantos quiser
+];
+function shuffleArray(array) {
+  const shuffled = [...array]; // não muta o original
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+const shuffledTerminals = shuffleArray(terminals);
+const shuffledAdiquirentes = shuffleArray(adiquirentes);
+
+function HomologatedTerminalsCarousel() {
+  const duplicatedTerminals = [...shuffledTerminals, ...shuffledTerminals];
+
+  return (
+    <section className={styles.terminalsSection}>
+      <h2 className="text--center" style={{
+        marginBottom: '2rem',
+        marginTop: '2rem'
+      }}>
+        Terminais compatíveis
+      </h2>
+
+      <div className={styles.marquee}>
+        <div className={styles.marqueeContent}>
+          {duplicatedTerminals.map((terminal, idx) => (
+            <div key={idx} className={styles.terminalCard}>
+              <img
+                src={terminal.logo}
+                alt={terminal.name}
+                className={styles.terminalLogo}
+              />
+              <p>{terminal.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function AdiquirentesCarousel() {
+  const duplicatedAdiquirentes = [...shuffledAdiquirentes, ...shuffledAdiquirentes];
+
+  return (
+    <section className={styles.terminalsSection}>
+      <h2 className="text--center" style={{
+        marginBottom: '0rem',
+        marginTop: '2rem'
+      }}>
+        Adiquirentes homologadas
+      </h2>
+
+      <div className={styles.marquee}>
+        <div className={styles.marqueeContent}>
+          {duplicatedAdiquirentes.map((terminal, idx) => (
+            <div key={idx} className={styles.terminalCard}>
+              <img
+                src={terminal.logo}
+                alt={terminal.name}
+                className={styles.terminalLogo}
+              />
+              <p>{terminal.name}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 function LegacyTefCompatibility() {
   return (
     <section className={styles.legacyTef} style={{ backgroundColor: '#f7f7f7', padding: '2rem 1rem', borderRadius: '8px', margin: '2rem 0' }}>
       <div className="container text--center">
         <h3 style={{ marginBottom: '1rem' }}>Já usa TEF no seu PDV?</h3>
         <p style={{ fontSize: '1.1rem', maxWidth: '600px', margin: '0 auto' }}>
-          Basta instalar nosso módulo TEF para trocar o pinpad pelo Smart POS — sem necessidade de integrar nada novo. Suportamos o protocolo tradicional de troca de arquivos para garantir compatibilidade imediata.
+          Basta instalar nosso módulo TEF para trocar o pinpad pelo Smart POS, Compatibilidade imediata.
         </p>
       </div>
     </section>
@@ -193,36 +245,13 @@ export default function HomepageConnectTEF() {
   return (
     <>
       <LegacyTefCompatibility />
-      {/* 
-      <section className={styles.benefits}>
-        <div className="container text--center">
-          <Heading as="h2" className="margin-bottom--md">
-            Por que escolher a Connect TEF?
-          </Heading>
-        </div>
-      </section> */}
-
       <section className={styles.testimonials}>
         <div className="container">
           <Heading as="h2" className="text--center">
-            Por que escolher a Connect TEF?
+            Por que escolher o Connect TEF?
           </Heading>
         </div>
       </section>
-
-      {/* <section className={styles.container}>
-        <div className="container">
-          {Object.entries(FeatureList).map(([category, items]) => (
-            <div key={category} className="margin-bottom--lg">
-              <div className={styles.featuresGrid}>
-                {items.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          ))}
-        </div>
-      </section> */}
 
       {/* Features Section */}
       <section className={styles.container}>
@@ -233,14 +262,17 @@ export default function HomepageConnectTEF() {
         </div>
       </section>
 
-      <section className={styles.testimonials}>
+      {/* <section className={styles.testimonials}>
         <div className="container">
           <Heading as="h2" className="text--center" style={{ marginBottom: '100px' }}>
             Quem está com a gente compartilha:
           </Heading>
           <TestimonialsCarousel />
         </div>
-      </section>
+      </section> */}
+
+      <HomologatedTerminalsCarousel />
+      <AdiquirentesCarousel />
 
       <div className="text--center margin-top--lg">
         <p><strong>🚀 Presença nas maiores adquirentes, alcance total garantido.</strong></p>

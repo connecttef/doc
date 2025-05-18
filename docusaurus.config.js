@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -72,7 +72,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Connect TEF developers',
+        title: 'Connect TEF',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -80,47 +80,63 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       // {
-        //       //   label: 'Tutorial',
-        //       //   to: '/docs/intro',
-        //       // },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       // {
-        //       //   label: 'Stack Overflow',
-        //       //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       // },
-        //       // {
-        //       //   label: 'Discord',
-        //       //   href: 'https://discordapp.com/invite/docusaurus',
-        //       // },
-        //       // {
-        //       //   label: 'X',
-        //       //   href: 'https://x.com/docusaurus',
-        //       // },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       // {
-        //       //   label: 'Blog',
-        //       //   to: '/blog',
-        //       // },
-        //       // {
-        //       //   label: 'GitHub',
-        //       //   href: 'https://github.com/facebook/docusaurus',
-        //       // },
-        //     ],
-        //   },
-        // ],
+        links: [
+          // {
+          //   title: 'Integração',
+          //   items: [
+          //     {
+          //       label: 'Troca de arquivos',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'API',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'DLL',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'SDK (Android)',
+          //       to: '/docs/intro',
+          //     },
+          //     {
+          //       label: 'Intent (Android)',
+          //       to: '/docs/intro',
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: 'Community',
+          //   items: [
+          //     // {
+          //     //   label: 'Stack Overflow',
+          //     //   href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+          //     // },
+          //     // {
+          //     //   label: 'Discord',
+          //     //   href: 'https://discordapp.com/invite/docusaurus',
+          //     // },
+          //     // {
+          //     //   label: 'X',
+          //     //   href: 'https://x.com/docusaurus',
+          //     // },
+          //   ],
+          // },
+          // {
+          //   title: 'More',
+          //   items: [
+          //     // {
+          //     //   label: 'Blog',
+          //     //   to: '/blog',
+          //     // },
+          //     // {
+          //     //   label: 'GitHub',
+          //     //   href: 'https://github.com/facebook/docusaurus',
+          //     // },
+          //   ],
+          // },
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} Connect TEF`,
       },
       prism: {

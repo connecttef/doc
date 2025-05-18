@@ -111,3 +111,45 @@
   font-size: 0.95rem;
   color: #374151;
 }
+
+.terminalsSection {
+  padding: 2rem 0;
+  background-color: #f9f9f9;
+}
+
+.marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.marqueeContent {
+  display: flex;
+  gap: 2rem;
+  animation: marquee 20s linear infinite;
+}
+
+.terminalCard {
+  flex: 0 0 auto;
+  width: 120px;
+  text-align: center;
+  user-select: none;
+  margin-bottom: 1rem;
+}
+
+.terminalLogo {
+ height: 100px; /* ou outro valor fixo como 60px, 100px, etc */
+  width: auto;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+/* Animação de scroll horizontal infinito */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

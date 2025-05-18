@@ -48,3 +48,42 @@
   gap: 1rem;
   margin-top: 2rem; /* espaço entre o botão principal e os links */
 }
+
+
+
+.contactForm input,
+.contactForm select {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.75rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.contactForm h3 {
+  margin-bottom: 1rem;
+}
+
+.heroContent {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: space-between;
+  flex-wrap: wrap; /* Para responsividade */
+  gap: 2rem;
+  min-height: 400px; /* Altura mínima para o alinhamento funcionar */
+}
+
+.heroLeft {
+  flex: 1;
+  min-width: 300px;
+}
+
+.heroRight {
+  flex: 1;
+  min-width: 300px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
