@@ -190,7 +190,7 @@ function LegacyTefCompatibility() {
 function Feature({ imgSrc, title, description }) {
   return (
     <div className={clsx(styles.card)}>
-      <img src={imgSrc} alt={title} className={styles.featureImage} />
+      {/* <img src={imgSrc} alt={title} className={styles.featureImage} /> */}
       <Heading as="h3" className={styles.title}>{title}</Heading>
       <p className={styles.description}>{description}</p>
     </div>
