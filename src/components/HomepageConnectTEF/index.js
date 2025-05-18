@@ -274,7 +274,7 @@ export default function HomepageConnectTEF() {
 
       <AdiquirentesCarousel />
 
-      <div className="text--center margin-top--lg margin-bottom--lg">
+      {/* <div className="text--center margin-top--lg margin-bottom--lg">
         <a
           className="button button--primary button--lg"
           href="/docs/intro"
@@ -282,7 +282,7 @@ export default function HomepageConnectTEF() {
         >
           👉 Quero integrar agora
         </a>
-      </div>
+      </div> */}
     </>
   );
 }
