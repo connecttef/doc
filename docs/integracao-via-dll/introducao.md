@@ -6,6 +6,10 @@ sidebar_position: 1
 
 A `ConnectTEF.dll` é uma biblioteca nativa que permite integrar sistemas com soluções Smart TEF, oferecendo suporte a transações, estornos, impressão e vários utilitários.
 
+> ⚠️ **Importante:**
+> A DLL se comunica com o **Gerenciador Padrão Smart TEF**, que deve estar corretamente instalado e configurado no ambiente. Para garantir o funcionamento correto, consulte o **Guia de Ativação do Gerenciador Smart TEF** antes de iniciar a integração.
+> [Acessar Guia de Ativação](../guia-ativacao/windows.md)
+
 ## Downloads
 
 Antes de começar, baixe os arquivos necessários para realizar a integração:
