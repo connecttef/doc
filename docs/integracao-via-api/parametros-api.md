@@ -10,7 +10,7 @@ Nesta seção você encontra a descrição completa dos **parâmetros utilizados
 ### 🌐 URL Base
 
 ```text
-https://api.seuservico.com/v1
+https://apitef.pdvpos.com.br/api/v1
 ```
 
 Todas as requisições devem ser feitas a partir desta URL, utilizando o endpoint apropriado conforme a operação desejada.
@@ -63,6 +63,7 @@ Utilizados quando os dados são enviados diretamente na URL (exemplo: `POST /pag
 ### ⚠️ Observações Importantes
 
 * Se `statusTransacao = "0"`, a transação foi **concluída com sucesso**.
+* Se `executada = false`, a operação está em andamento.
 * Para qualquer valor diferente de `"0"`, a transação **falhou**, e o campo `textoEspecialOperador` estará presente com a mensagem de erro detalhada.
 
 **Exemplo de falha**:

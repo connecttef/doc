@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Introdução
 
 Este manual descreve como integrar um software de automação comercial com a solução Connectt TEF através da **troca de arquivos**. As operações suportadas incluem:
@@ -73,8 +77,7 @@ Cada operação requer um arquivo de solicitação com uma estrutura específica
 | 007-000   | DOCUMENTO DA PESSOA                 | CNPJ ou CPF da pessoa                                                     | Numérico (16 bytes)          | -                                                                                                |
 | 009-000   | STATUS DA TRANSAÇÃO                 | Indica se foi aprovada                                                    | Alfanumérico (até 3 bytes)   | 0 = Aprovada,<br/> ≠ 0 = Erro                                                                         |
 | 010-000   | NOME DA REDE                        | Nome da rede processadora                                                 | Alfanumérico (até 12 bytes)  | PAGSEGURO, STONE                                                                                 |
-| 011-000   | TIPO DA TRANSAÇÃO                   | Tipo da transação                                                         | Numérico (até 2 bytes)       | 10: Crédito à Vista, <br/>11: Crédito Loja,<br/> 12: Crédito Cliente, 20: Débito, 30: PIX, etc.            |
-|           |                                     |                                                                           |                              | CDP: 0 = Solicitar CPF/CNPJ <br/> SRV: 0 = Coletor de dados                                       |
+| 011-000   | TIPO DA TRANSAÇÃO                   | Tipo da transação                                                         | Numérico (até 2 bytes)       | 10 - Cartão de Crédito à Vista<br/>11 - Crédito Parcelado pela Loja<br/>12 - Crédito Parcelado pele cliente<br/>20 - Cartão de Débito à Vista<br/>30 - PIX/Carteira digital<br/>60 - Voucher / PAT<br/>70 - Consulta Cheque<br/>99 - Outras<br/><br/>EM OPERAÇÕES CDP:<br/>0 - Solicitar CPF/CNPJ<br/>1 - Solicitar Telefone<br/>2 - Solicitar E-Mail<br/>3 - Solicitar Avaliação<br/>4 - Solicitação avulsa<br/><br/>EM OPERAÇÕES SRV:<br/>0 - Coletor de dados<br/>1 - Ler código de barras<br/>2 - Imprimir imagem base64<br/>3 - Imprimir texto<br/>6 - Reimpressão estabelecimento<br/>7 - Reimpressão cliente
 | 012-000   | NÚMERO DA TRANSAÇÃO                 | NSU gerado no Host                                                        | Numérico (até 14 bytes)      | -                                                                                                |
 | 013-000   | CÓDIGO DE AUTORIZAÇÃO               | Código de autorização da transação                                        | Numérico (até 6 bytes)       | -                                                                                                |
 | 015-000   | TIMESTAMP HOST                      | Data/hora da transação no Host                                            | Numérico (DDMMHHMMSS)        | -                                                                                                |
@@ -96,8 +99,3 @@ Cada operação requer um arquivo de solicitação com uma estrutura específica
 | 400-004   | IMAGEM EM BASE64                    | Imagem em base64 para impressão                                           | Base64 String                | -                                                                                                |
 | 400-005   | TEXTO PARA IMPRESSÃO                | Texto a ser impresso                                                      | String                       | -                                                                                                |
 | 999-999   | REGISTRO FINAL                      | Marca o fim do arquivo                                                    | Numérico (1 byte)            | Valor fixo: 0                                                                                    |
-
-
----
-
-Esse processo garante a independência entre a Automação Comercial e o módulo TEF, promovendo robustez e flexibilidade à integração.

@@ -12,8 +12,8 @@ Este guia mostra como testar a integração com o **Connect TEF** utilizando o *
 
 | Descrição | Link |
 | --------- | ---- |
-| Certificado (.pfx) | [Baixar certificado de teste](https://arquivos.pdvpos.com.br/connecttef/webservice.pfx) |
-| Collection + Ambiente Postman | [Baixar arquivos](https://arquivos.pdvpos.com.br/connecttef/homologacao+connecttef+postman.rar) |
+| Certificado (.pfx) | [Baixar certificado de teste](https://arquivos.pdvpos.com.br/connecttef/homologacao/webservice.pfx) |
+| Collection + Ambiente Postman | [Baixar arquivos](https://arquivos.pdvpos.com.br/connecttef/homologacao/webservice.rar) |
 
 Caso ainda não tenha o Postman instalado, baixe aqui: [https://www.postman.com/downloads/](https://www.postman.com/downloads/)
 
