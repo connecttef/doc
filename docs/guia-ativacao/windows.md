@@ -49,42 +49,54 @@ Escolha a versão compatível com o sistema operacional do seu computador:
 
 ---
 
-### Passo 3: Gerar QR Code
+### Passo 3: Ativação do gerenciador padrão
 
-Após a instalação, um atalho chamado **Connect TEF** será criado na área de trabalho. Siga os passos:
-
-1. **Abra o Connect TEF**
+1. **Abra o Connect TEF localizado na área de trabalho**
 
 ![alt text](image-5.png)
 
-2. Clique na aba **Dispositivos**
+2. **Na tela de ativação, informe seu CNPJ e o código de ativação fornecido pelo seu representante comercial.**
+
+![alt text](tela_ativacao_gerenciador_padrao_windows.png)
+
+> ⚠️ Para acessar o Gerenciador Padrão:
+>
+> 1. **Dê um clique duplo no ícone do Connect TEF na área de trabalho** para iniciá-lo.
+> 2. Em seguida, vá até a **bandeja do sistema**, clique com o botão direito no ícone do Connect TEF e selecione **"Configurações"**.
+
+![img.png](img.png) ![img_3.png](img_3.png)
+
+### Passo 3: Vincular maquininha de cartão Smartpo POS
+
+1. **Clique na aba Dispositivos**
 
 ![alt text](image-6.png)
 
-3. Clique em **Buscar terminais**
+2. Clique em **Buscar terminais**
 
 ![alt text](image-8.png)
 
-Um **QR Code** será exibido na tela:
+3. **Um QR Code será exibido na tela:**
 
 ![alt text](image-9.png)
 
----
+4. **Abra o aplicativo Connect TEF na maquininha de cartão Smart POS e escaneie o QR Code exibido na tela do computador**
 
-### Passo 4: Vincular SmartPOS
+> 🔒 *Se o aplicativo ainda não estiver ativado na maquininha, a leitura do QR Code não será possível.*
+> 👉 Consulte a [**documentação de ativação do aplicativo**](./smartpos.md) para realizar esse processo antes de continuar.
 
 No Smart POS:
 
-1. Abra o app `connecttef`
-2. Toque no ícone de **Configurações** (⚙️)
+- Abra o app `connecttef`
+- Toque no ícone de **Configurações** (⚙️)
 
 ![alt text](image-10.png)
 
-3. Toque em **Vincular PDV**
+- Toque em **Vincular PDV**
 
 ![alt text](image-11.png)
 
-4. Aponte a câmera para o QR Code exibido no computador
+- Aponte a câmera para o QR Code exibido no computador
 
 ![alt text](image-12.png)
 
