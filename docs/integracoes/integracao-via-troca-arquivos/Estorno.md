@@ -30,7 +30,7 @@ sidebar_position: 3
 
 **Passo 3: O Gerenciador exibe uma interface de processamento**
 
-![alt text](<Modal Exemplo Pequeno com ilustração com botões.png>)
+![alt text](<Modal%20Exemplo%20Pequeno%20com%20ilustração%20com%20botões.png>)
 
 ![alt text](<Modal Exemplo Pequeno com ilustração com botões (1).png>)
 
