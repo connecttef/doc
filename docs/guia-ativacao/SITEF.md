@@ -15,10 +15,12 @@ Siga os passos abaixo para integrar o Connect TEF ao seu PDV que já utiliza o S
 
 Baixe os dois arquivos abaixo:
 
-| Sistema Operacional         | Download |
-|-----------------------------|----------|
-| CliSiTef32I.dll             | [Download](https://arquivos.pdvpos.com.br/connecttef/CliSiTef32I.dll)         |
-| InterfaceConnectTEF.dll     | [Download](https://arquivos.pdvpos.com.br/connecttef/InterfaceConnectTEF.dll) |
+| Sistema Operacional                 | Download |
+|-------------------------------------|----------|
+| CliSiTef32I.dll                     | [Download](https://arquivos.pdvpos.com.br/connecttef/gerenciador-padrao/dll/CliSiTef32I.dll)               |
+| InterfaceConnectTEF.dll (X64)       | [Download](https://arquivos.pdvpos.com.br/connecttef/gerenciador-padrao/dll/InterfaceConnectTEF-X64.dll)   |
+| InterfaceConnectTEF.dll (X86)       | [Download](https://arquivos.pdvpos.com.br/connecttef/gerenciador-padrao/dll/InterfaceConnectTEF-X86.dll)   |
+| InterfaceConnectTEF.dll (Win32)     | [Download](https://arquivos.pdvpos.com.br/connecttef/gerenciador-padrao/dll/InterfaceConnectTEF-Win32.dll) |
 
 ---
 
