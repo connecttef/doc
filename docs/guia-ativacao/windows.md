@@ -14,8 +14,8 @@ Escolha a versão compatível com o sistema operacional do seu computador:
 
 | Sistema Operacional | Download |
 |---------------------|----------|
-| Windows 32 bits     | [Download](https://arquivos.pdvpos.com.br/connecttef/setup-32.exe) |
-| Windows 64 bits     | [Download](https://arquivos.pdvpos.com.br/connecttef/setup-64.exe) |
+| Windows 32 bits     | [Download](https://arquivos.pdvpos.com.br/connecttef/gerenciador-padrao/instaladores/setup-32.exe) |
+| Windows 64 bits     | [Download](https://arquivos.pdvpos.com.br/connecttef/gerenciador-padrao/instaladores/setup-64.exe) |
 
 ---
 
