@@ -1,0 +1,111 @@
+---
+sidebar_position: 3
+---
+
+# Estorno
+
+### Passo 1: Chame a função `ProcessarOperacao`
+
+Informe os seguintes parametros:
+
+- `operacao = 1` (estorno)
+- `payload` = string json com os dados da venda
+- `novaOperacao = true`
+
+**Campos do `payload`**
+
+| Campo                 | Tipo      | Obrigatório | Descrição                                                |
+|-----------------------|-----------|-------------|----------------------------------------------------------|
+| `identificacao`       | `string`  | **Sim**     | ID único da transação no seu sistema.                    |
+| `valorTotal`          | `decimal` | **Sim**     | Valor total da venda. Ex: `29.9` para R$29,90            |
+| `tipoTransacao`       | `string`  | **Sim**     | Código da transação (veja tabela abaixo).                |
+| `numeroTransacao`     | `string`  | **Sim**     | Número único da transação fornecido pela adquirente.     |
+| `finalizacao`         | `string`  | **Sim**     | Finalização obtida na resposta ao realizar um pagamento. |
+| `imprimirComprovante` | `bool`    | Não         | Imprime comprovante no POS.                              |
+
+**Tipos de Transação**
+
+| Código | Tipo                                |
+|--------|-------------------------------------|
+| 10     | Crédito à Vista                     |
+| 11     | Crédito Parcelado (Estabelecimento) |
+| 12     | Crédito Parcelado (Cliente)         |
+| 20     | Débito                              |
+| 30     | PIX / Carteira Digital              |
+| 60     | Voucher / PAT                       |
+
+### Passo 2: Repita a chamada.
+
+Se a resposta for:
+
+```json
+{ "executada": false }
+````
+
+Repita a chamada com os mesmos dados e `novaOperacao` = false até obter `executada` = true.
+
+### Passo 3: Verificação do status da operação
+
+Com `executada` = **true**, verifique `statusTransacao`:
+
+```json
+{
+  "executada": true,
+  "statusTransacao": "0"
+}
+```
+
+| Código | Significado                   |
+|--------|-------------------------------|
+| "0"    | Transação cancelada           |
+| Outros | Falha ao cancelar a transação |
+
+---
+
+### Passo 4: Finalize a operação
+
+> ⚠️ Esse passo só deve ser executado quando `statusTransacao` = "0"
+
+Chame a função `ProcessarOperacao` informando os seguintes parametros:
+
+* `operacao` = **3**
+* `payload` = *Consulte a tabela a seguir*
+* `novaOperacao` = **false**
+
+Campos do `payload` de finalização
+
+| Campo             | Tipo     | Obrigatório | Descrição                                                    |
+|-------------------|----------|-------------|--------------------------------------------------------------|
+| `numeroTransacao` | `string` | **Sim**     | Número único da transação original fornecido pela adquirente |
+| `acao`            | `string` | **Sim**     | 0 = Confirmação                                              |
+
+---
+
+## Exemplos
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs
+    defaultValue="csharp"
+    values={[
+        {label: 'C#', value: 'csharp'},
+        {label: 'Java', value: 'java'},
+        {label: 'Delphi', value: 'delphi'},
+    ]}>
+    <TabItem value="csharp">
+        ```csharp
+        // Em breve...
+        ````
+    </TabItem>
+    <TabItem value="java">
+        ```java
+        // Em breve...
+        ```
+    </TabItem>
+    <TabItem value="delphi">
+        ```delphi
+        // Em breve...
+        ```
+    </TabItem>
+</Tabs>

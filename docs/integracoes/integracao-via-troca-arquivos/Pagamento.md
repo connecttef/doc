@@ -17,13 +17,14 @@ sidebar_position: 2
 >
 >  [**Consultar tabela**](./introducao.md)
 
-**Pass 2: O Gerenciador criará o arquivo `C:\TEF_DIAL\RESP\IntPos.Sts`** 
+**Pass 2: O Gerenciador criará o arquivo `C:\TEF_DIAL\RESP\IntPos.Sts`**
 
 ```txt
 000-000 = CRT
 001-000 = 0
 999-999 = 0
 ```
+
 > 🚨Se não houver resposta em até 7 segundos, o Gerenciador não está ativo.
 
 **Passo 3: O Gerenciador exibirá a tela de seleção da rede desejada.**
@@ -83,8 +84,8 @@ Exemplo: Operação Mal-Sucedida
 999-999 = 0
 ```
 
->**⚠️ Observação**
->Se não houver comprovante ou a impressão for realizada com sucesso a automação deve retornar o status para
+> **⚠️ Observação**
+> Se não houver comprovante ou a impressão for realizada com sucesso a automação deve retornar o status para
 `C:\TEF_DIAL\REQ\IntPos.001`
 >```
 >000-000 = CNF

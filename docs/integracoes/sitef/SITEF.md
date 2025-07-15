@@ -2,12 +2,12 @@
 sidebar_position: 3
 ---
 
-# SITEF
+# TEF Dedicado (DLL)
 
 Siga os passos abaixo para integrar o Connect TEF ao seu PDV que já utiliza o SiTef via DLL.
 
 > ⚠️ *Se o gerenciador ainda não estiver instalado e configurado, a configuração a seguir não será possível.*
-> 👉 Consulte a [**documentação de instalação e configuração do gerenciador padrão**](./windows.md) para realizar esse processo antes de continuar.
+> 👉 Consulte a [**documentação de instalação e configuração do gerenciador padrão**](../../guia-ativacao/windows.md) para realizar esse processo antes de continuar.
 
 ---
 
@@ -60,7 +60,7 @@ Dentro do diretório que foi aberto:
 1. Crie um novo arquivo chamado:  
    `config.txt`
 
-![img_8.png](img_8.png)
+![img.png](img.png)
 
 2. Edite o arquivo e adicione a seguinte linha:
 
@@ -72,7 +72,7 @@ PROCESS_NAME=<nome-do-processo-do-pdv>
 
 > Substitua `<nome-do-processo-do-pdv>` pelo **nome real do executável do seu PDV** que já usa o SiTef.
 
-![img_7.png](img_7.png)
+![img_1.png](img_1.png)
 
 ---
 
