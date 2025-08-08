@@ -49,6 +49,25 @@ Escolha a versão compatível com o sistema operacional do seu computador:
 
 ---
 
+> ⚠️ **Atenção:** Este passo é necessário **apenas para usuários do Windows 10**.
+
+Se você estiver utilizando **Windows 10**, siga os passos abaixo **antes de prosseguir com a ativação**:
+
+1. Vá até o local onde o programa **ConnectTEF** está instalado.
+
+![img.png](img.png)
+
+2. Clique com o **botão direito do mouse** sobre o executável do **ConnectTEF** e selecione a opção **"Propriedades"**.
+
+![img_3.png](img_3.png)
+
+3. Vá até a aba **"Compatibilidade"** e marque a opção:
+   - ✅ **"Executar este programa em modo de compatibilidade"**
+   - No menu suspenso, selecione **Windows 8**.
+6. Clique em **"OK"** para salvar as alterações.
+
+![img_10.png](img_10.png)
+
 ### Passo 3: Ativação do gerenciador padrão
 
 1. **Abra o Connect TEF localizado na área de trabalho**

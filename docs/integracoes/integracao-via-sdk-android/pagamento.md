@@ -19,15 +19,15 @@ void realizarPagamento(Bundle bundle, Callback<Bundle> callback);
 
 **Parâmetros do `bundle`**
 
-| Campo                 | Tipo      | Obrigatório                 | Descrição                                                |
-|-----------------------|-----------|-----------------------------|----------------------------------------------------------|
-| `identificacao`       | `string`  | **Sim(*)**                  | ID único da transação no seu sistema.                    |
-| `valorTotal`          | `decimal` | **Sim(Pagamento, Estorno)** | Valor total da venda. Ex: `29.9` para R$29,90            |
-| `tipoTransacao`       | `string`  | **Sim(Estorno)**            | Código da transação (veja tabela abaixo).                |
-| `quantidadeParcelas`  | `string`  | Não                         | Nº de parcelas. Ex: `"1"`.                               |
-| `imprimirComprovante` | `bool`    | Não                         | Imprime comprovante no POS.                              |
-| `numeroTransacao`     | `string`  | **Sim(Estorno)**            | Número único da transação fornecido pela adquirente.     |
-| `finalizacao`         | `string`  | **Sim(Estorno)**            | Finalização obtida na resposta ao realizar um pagamento. |
+| Campo                 | Tipo      | Obrigatório | Descrição                                                |
+|-----------------------|-----------|-------------|----------------------------------------------------------|
+| `identificacao`       | `string`  | **Sim(*)**  | ID único da transação no seu sistema.                    |
+| `valorTotal`          | `decimal` | **Sim**     | Valor total da venda. Ex: `29.9` para R$29,90            |
+| `tipoTransacao`       | `string`  | Não         | Código da transação (veja tabela abaixo).                |
+| `quantidadeParcelas`  | `string`  | Não         | Nº de parcelas. Ex: `"1"`.                               |
+| `imprimirComprovante` | `bool`    | Não         | Imprime comprovante no POS.                              |
+| `numeroTransacao`     | `string`  | Não         | Número único da transação fornecido pela adquirente.     |
+| `finalizacao`         | `string`  | Não         | Finalização obtida na resposta ao realizar um pagamento. |
 
 ## Parâmetros da resposta
 
