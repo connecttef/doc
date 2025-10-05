@@ -33,25 +33,19 @@ Escolha a versão compatível com o sistema operacional do seu computador:
 
 3. Siga as etapas do instalador:
 
-   - Clique em **Avançar**
-
-   ![alt text](image-2.png)
-
-   - Marque a opção **Criar um atalho na área de trabalho**
-
-   ![alt text](image-3.png)
-
    - Clique em **Instalar**
 
-   ![alt text](image-4.png)
+   ![alt text](image-6.png)
 
-4. Aguarde o término da instalação. Você pode escolher **não reiniciar o computador imediatamente**, mas recomendamos reiniciar **após finalizar toda a configuração**.
+   ![alt text](2.png)
+
+   - Clique em **Concluir**
+
+   ![alt text](image-8.png)
 
 ---
 
-> ⚠️ **Atenção:** Este passo é necessário **apenas para usuários do Windows 10**.
-
-Se você estiver utilizando **Windows 10**, siga os passos abaixo **antes de prosseguir com a ativação**:
+> ⚠️ **Atenção,** siga os passos abaixo **antes de prosseguir com a ativação**:
 
 1. Vá até o local onde o programa **ConnectTEF** está instalado.
 
@@ -63,7 +57,7 @@ Se você estiver utilizando **Windows 10**, siga os passos abaixo **antes de pro
 
 3. Vá até a aba **"Compatibilidade"** e marque a opção:
    - ✅ **"Executar este programa em modo de compatibilidade"**
-   - No menu suspenso, selecione **Windows 8**.
+   - No menu suspenso, selecione **Windows 8**, se não houver, **Windows 7**.
 6. Clique em **"OK"** para salvar as alterações.
 
 ![img_10.png](img_10.png)
