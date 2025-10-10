@@ -70,8 +70,67 @@ Escolha a versão compatível com o sistema operacional do seu computador:
 
 2. **Na tela de ativação, informe seu CNPJ e o código de ativação fornecido pelo seu representante comercial.**
 
-![alt text](tela_ativacao_gerenciador_padrao_windows.png) ![img_9.png](img_9.png)
+![alt text](tela_ativacao_gerenciador_padrao_windows.png)
 
-### Pronto! O Connect TEF está instalado e ativado
+### Passo 4: Vincular terminal
 
-> 👉 Para vincular sua maquininha Smart POS ao Gerenciador Padrão, consulte a [**documentação de vinculação do dispositivo**](../duvidas/como-vincular-smartpos.md).
+- Clique na aba **Dispositivos**
+- Clique em **Buscar terminais**
+
+![alt text](image-9.png)
+
+- Um QR Code será exibido na tela:
+
+![alt text](<Captura de tela 2025-10-05 183709.png>)
+
+No Smart POS:
+
+- Abra o app `connecttef`
+- Toque no ícone de **Configurações** (⚙️)
+
+![alt text](image-10.png)
+
+- Toque em **Vincular PDV**
+
+![alt text](image-11.png)
+
+- Aponte a câmera para o QR Code exibido no computador
+
+![alt text](image-12.png)
+
+Após leitura bem-sucedida:
+
+- O terminal aparecerá na lista do Connect TEF
+- Ative o **switch**
+
+![alt text](image-13.png)
+
+### Passo 5: Configurar conexão local
+
+1. Abra o CMD
+
+![alt text](image-14.png)
+
+2. Realize um ping para o ip do terminal
+
+![alt text](image-15.png)
+
+3. Liste os dispositivos usando o comando **arp -a** e copie o endereço mac correspondente ao ip
+
+![alt text](image-22.png)
+
+4. Clique sobre o dispositivo vinculado e informe o endereço mac copiado e na sequencia o ip
+
+![alt text](image-24.png)
+
+![alt text](image-19.png)
+
+![alt text](image-21.png)
+
+4. Clique em sair para aplicar as configurações
+
+![alt text](image-25.png)
+
+---
+
+Pronto! O terminal Smart POS foi vinculado ao seu gerenciador padrão e está pronto para o uso via rede WIFI.
