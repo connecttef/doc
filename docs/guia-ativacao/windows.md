@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Windows
+# Ativar o GP no Windows
 
-O **Connect TEF** é uma ponte entre seu sistema de vendas (PDV) e a maquininha de cartão Smart POS. Este guia mostra como instalar e configurar o Connect TEF no Windows para começar a realizar transações com segurança e agilidade.
+Caso sua integração seja utilizando a **troca de arquivos**, este guia mostra como instalar e configurar o Gerenciado Padrão do ConnectTEF no Windows para começar a realizar transações com segurança e agilidade.
 
 ---
 
