@@ -72,8 +72,8 @@ A tabela abaixo mostra os **modelos de terminais SmartPOS compatíveis** com as 
 | **Dock**          | DX8000                                               |
 | **BRB**           | P2                                                   |
 | **C6**            | P3                                                   |
-| **PicPay**        | P2                                                   |
-| **Sicoob**        | P2, DX8000,X990                                      |
+| **PicPay**        | Andamento...                                         |
+| **Sicoob**        | Andamento...                                         |
 | **Safra Pay**     | Andamento...                                         |
 
 ---
