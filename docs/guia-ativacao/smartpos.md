@@ -1,10 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Smart POS
+# Ativar o app no SmartPOS
 
-Siga os passos abaixo para ativar o aplicativo Connect TEF na sua maquininha de cartão Smart POS. Esse processo é rápido e feito uma única vez.
+Siga os passos abaixo para ativar o aplicativo ConnectTEF na sua maquininha de cartão SmartPOS. Esse processo é rápido e feito uma única vez.
 
 ---
 
@@ -28,9 +28,13 @@ Siga os passos abaixo para ativar o aplicativo Connect TEF na sua maquininha de 
 
 ### Passo 3: Informar os Dados
 
-- Na tela de ativação, informe:
-    - **Seu CNPJ**
-    - **O código de ativação** (fornecido pelo seu representante comercial)
+Na tela de ativação, informe:
+
+- **CNPJ do estabelecimento proprietário do SmartPOS**
+  > ⚠️ Não utilize o CNPJ da revenda ou da empresa integradora. Informe o CNPJ do cliente onde o equipamento será utilizado.
+
+- **Código de ativação**
+  > Informe os **6 primeiros dígitos do CNPJ informado acima**.
 
 ![img_5.png](img_5.png)
 
