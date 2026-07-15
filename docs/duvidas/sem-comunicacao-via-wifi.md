@@ -1,7 +1,7 @@
 ---
 id: sem-comunicacao-via-wifi
-title: Problema de Comunicação entre Terminal e Gerenciador padrão?
-sidebar_label: Problema de Comunicação entre Terminal e Gerenciador padrão?
+title: Falha de Comunicação com o Gerenciador Padrão
+sidebar_label: Falha de Comunicação com o Gerenciador Padrão
 sidebar_position: 2
 ---
 

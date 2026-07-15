@@ -87,7 +87,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Resolvendo problemas na implantação',
+      label: 'Diagnóstico e Soluções',
       collapsed: true,
       link: {
         type: 'generated-index',

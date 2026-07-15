@@ -1,7 +1,7 @@
 ---
 id: instancia-duplicada
-title: Erro Address already in use?
-sidebar_label: 'Erro: Address already in use?'
+title: Erro Address already in use
+sidebar_label: 'Erro: Address already in use'
 sidebar_position: 3
 ---
 

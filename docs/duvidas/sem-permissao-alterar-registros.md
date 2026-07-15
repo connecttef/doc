@@ -1,7 +1,7 @@
 ---
 id: sem-permissao-alterar-registros
-title: Erro de Permissão ao Acessar o Registro do Windows?
-sidebar_label: Erro de Permissão ao Acessar o Registro do Windows?
+title: Erro de Permissão no Windows
+sidebar_label: Erro de Permissão no Windows
 sidebar_position: 1
 ---
 
