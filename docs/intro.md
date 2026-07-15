@@ -20,13 +20,13 @@ Adicione novos terminais ou adquirentes facilmente, sem alterar o código-base.
 Com alta disponibilidade e monitoramento contínuo, o Connect TEF garante confiabilidade nas transações.
 
 **✔️ Foco no seu produto**  
-Enquanto o Connect TEF cuida do pagamento, sua equipe foca em entregar valor, experiência e inovação.
+Enquanto o ConnectTEF cuida do pagamento, sua equipe foca em entregar valor, experiência e inovação.
 
 ---
 
 ## Arquitetura e Escalabilidade
 
-O **Connect TEF** foi projetado sobre uma arquitetura **serverless** e **altamente escalável**, capaz de processar milhares de transações simultâneas com **baixa latência** e **alta disponibilidade**.
+O **ConnectTEF** foi projetado sobre uma arquitetura **serverless** e **altamente escalável**, capaz de processar milhares de transações simultâneas com **baixa latência** e **alta disponibilidade**.
 
 Essa arquitetura elimina a necessidade de servidores dedicados, reduz custos operacionais e garante performance consistente mesmo em períodos de pico.
 
