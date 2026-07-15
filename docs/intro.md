@@ -78,4 +78,34 @@ A tabela abaixo mostra os **modelos de terminais SmartPOS compatíveis** com as 
 
 ---
 
-Saiba mais em https://www.connecttef.com.br
+---
+
+# 🧭 Continue explorando o ConnectTEF
+
+Esta documentação é dedicada à **integração técnica** da plataforma ConnectTEF.
+
+Se você deseja compreender melhor a solução, sua arquitetura e os benefícios para software houses e integradores, acesse também nossa **Central de Conhecimento**.
+
+Você encontrará conteúdos sobre:
+
+- O que é o ConnectTEF;
+- Benefícios da plataforma;
+- Arquitetura do ecossistema;
+- SmartPOS;
+- White Label;
+- Casos de uso;
+- Estratégias de integração.
+
+#### 📚 Central de Conhecimento
+
+Conteúdos conceituais e estratégicos sobre a plataforma.
+
+👉 **[Acessar a Central de Conhecimento](https://help.pdvpos.com.br/docs/04-CONNECTTEF/06-POR-QUE-CONNECTTEF/)**
+
+#### 🌐 Site Oficial
+
+Conheça os produtos, recursos e novidades do ConnectTEF.
+
+👉 **[Site Oficial do ConnectTEF](https://www.connecttef.com.br)**
+
+---
