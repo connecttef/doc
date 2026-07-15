@@ -71,10 +71,10 @@ A tabela abaixo mostra os **modelos de terminais SmartPOS compatíveis** com as 
 | **Pinbank**       | P2, A910, A920                                       |
 | **Dock**          | DX8000                                               |
 | **BRB**           | P2                                                   |
-| **C6**            | P3                                                   |
 | **PicPay**        | P2                                                   |
 | **Sicoob**        | P2, DX8000,X990                                      |
 | **Safra Pay**     | Andamento...                                         |
+| **C6**            | Andamento...                                         |
 
 ---
 
