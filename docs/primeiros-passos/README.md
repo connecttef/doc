@@ -119,7 +119,7 @@ Instale os seguintes aplicativos no emulador:
 Preencha os campos abaixo na ativação:
 
 - **CNPJ:** 42407441000152
-- **Código de ativação:** 055173
+- **Código de ativação:** 424074
 
 ---
 
