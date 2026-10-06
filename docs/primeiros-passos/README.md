@@ -112,14 +112,18 @@ Instale os seguintes aplicativos no emulador:
 
 > ⚠️ **Atenção**
 >
-> O CNPJ informado deve ser o CNPJ disponibilizado para este ambiente de testes.
->
-> Não utilize o CNPJ da revenda, da software house ou do cliente final.
+> Mesmo usando um emulador, a ativação deve ser feita com os dados do cliente cadastrado no portal ConnectTEF.
 
-Preencha os campos abaixo na ativação:
+Antes de ativar o aplicativo no emulador:
 
-- **CNPJ:** 42407441000152
-- **Código de ativação:** 424074
+1. Acesse [portal.connecttef.com.br](https://portal.connecttef.com.br) e cadastre o cliente que será usado na homologação.
+2. No portal, cadastre e ative o emulador como uma **máquina de teste** para esse cliente.
+3. Anote o CNPJ do cliente cadastrado e o código de ativação disponibilizado pelo portal.
+4. Abra o ConnectTEF no emulador e informe esses dados na tela de ativação:
+    - **CNPJ:** CNPJ do cliente cadastrado no portal;
+    - **Código de ativação:** código disponibilizado pelo portal para a máquina de teste.
+
+Concluída a ativação, o ConnectTEF estará pronto para os testes de homologação nesse emulador.
 
 ---
 
