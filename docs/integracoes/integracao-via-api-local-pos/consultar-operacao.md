@@ -7,7 +7,7 @@ sidebar_position: 3
 **Endpoint:**
 
 ```http
-http://localhost:3000/api/v1/operacao
+http://{ip-do-smartpos}:3005/api/v1/operacao
 ```
 
 **Método:** **`GET`**
@@ -27,7 +27,7 @@ http://localhost:3000/api/v1/operacao
 ## **Exemplo de chamada**
 
 ```http
-GET http://localhost:3000/api/v1/operacao?identificacao=abc123
+GET http://{ip-do-smartpos}:3005/api/v1/operacao?identificacao=abc123
 ```
 
 ### ⏳ Em Andamento
