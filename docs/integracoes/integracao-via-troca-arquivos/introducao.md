@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introdução
 
-Este manual descreve como integrar um software de automação comercial com a solução Connectt TEF através da **troca de arquivos**. As operações suportadas incluem:
+Este manual descreve como integrar um software de automação comercial com a solução Connectt TEF através da **troca de arquivos req-resp / TEF_DIAL / Client Modular / TEF Passivo**. As operações suportadas incluem:
 
 - Pagamento
 - Estorno
