@@ -7,7 +7,7 @@ sidebar_position: 2
 **Endpoint:**
 
 ```http
-http://localhost:3000/api/v1/operacao
+http://{ip-do-smartpos}:3005/api/v1/operacao
 ```
 
 **Método:** **`POST`**
@@ -50,7 +50,7 @@ http://localhost:3000/api/v1/operacao
 ## **Exemplo de chamada**
 
 ```http
-POST http://localhost:3000/api/v1/operacao?tipoOperacao=0
+POST http://{ip-do-smartpos}:3005/api/v1/operacao?tipoOperacao=0
 ```
 
 **Body Request:**
